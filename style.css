@@ -1,3 +1,17 @@
 body{
     background-color:#fafafa;
 }
+.profile-picture{
+    margin-top:10%;
+    border-radius:50%;
+    width:100%;
+    height:auto;
+}
+.title{
+    margin-top:50%;
+    font-family: "Inconsolata", monospace;
+}
+.sub-title{
+    font-family: "Inconsolata", monospace;
+    font-size:20px;
+}
