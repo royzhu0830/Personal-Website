@@ -1,5 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color:#fafafa;
+}
+.navbar{
+    position:fixed;
+    top: 0;
+    z-index:20;
+    width:100%;
 }
 .profile-picture{
     margin-top:10%;
@@ -16,11 +25,13 @@ body{
     font-size:20px;
 }
 .about{
+    padding-top:50px;
     margin-top:10%;
     text-align:center;
     font-family: "Inconsolata", monospace;
 }
 .projecti, .projectf{
+    padding-top:50px;
     margin-top:10%;
     text-align:center;
     font-family: "Inconsolata", monospace;
@@ -38,6 +49,7 @@ body{
     color: #ffcf31 !important;
 }
 .footer h1{
+    padding-top:50px;
     margin-top:10%;
     color: white;
     font-size: 30px;
