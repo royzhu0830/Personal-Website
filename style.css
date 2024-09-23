@@ -57,3 +57,15 @@ body{
 .fa-github, .fa-linkedin{
     color:white !important;
 }
+.name{
+    margin:20px;
+}
+.email{
+    margin:20px;
+}
+.message{
+    margin: 20px;
+}
+.submit{
+    margin:20px;
+}
