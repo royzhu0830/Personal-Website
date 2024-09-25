@@ -23,6 +23,11 @@ body{
     width:100%;
     height:90%; /* picture looks a little stretched out might delete this picture later*/
 }
+.about-picture-3{
+    width:90%;
+    height:90%;
+}
+
 .title{
     margin-top:50%;
     font-family: "Inconsolata", monospace;
@@ -37,14 +42,34 @@ body{
     padding-top:50px;
     margin-top:10%;
 }
+.PiP-title{
+    padding-top:50px;
+    text-align:center;
+    font-family:"Inconsolata", monospace;
+}
+.FP-Title{
+    padding-top:50px;
+    text-align:center;
+    font-family:"Inconsolata", monospace;
+}
+.tictactoe-title{
+    text-align:center;
+    font-family:"Inconsolata", monospace;
+    padding-bottom:20px;
+}
+.chess-title{
+    text-align:center;
+    font-family:"Inconsolata", monospace;
+    padding-bottom:20px;
+}
 .about{
     padding-top:10px;
     text-align:center;
     font-family: "Inconsolata", monospace;
 }
 .projecti, .projectf{
-    padding-top:50px;
-    margin-top:10%;
+
+    margin-top:5%;
     text-align:center;
     font-family: "Inconsolata", monospace;
 }
