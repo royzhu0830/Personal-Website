@@ -15,9 +15,10 @@
     <link rel = "stylesheet" href = "style.css">
     <title>Roy Zhu</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Roy</a>
+  <body id = "dark-mode-bg"class="darkmode">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id = "dark-mode-nav">
+        <a class="navbar-brand dark-mode-word" href="#">Roy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,21 +26,27 @@
           <ul class="navbar-nav">
 
             <li class="nav-item">
-              <a class="nav-link" href="#About">About Me</a>
+              <a class="nav-link dark-mode-word" href="#About">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#PiP">Projects in Progress</a>
+              <a class="nav-link dark-mode-word" href="#PiP">Projects in Progress</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#FP">Finished Projects</a>
+              <a class="nav-link dark-mode-word" href="#FP">Finished Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Connect">Connect with me</a>
+              <a class="nav-link dark-mode-word" href="#Connect">Connect with me</a>
             </li>
+            <li class="nav-item button">
+              <button class="btn nav-link darkbutton fa-solid fa-moon"type="button"id="darkactivate"></button>
 
+            </li>
           </ul>
         </div>
       </nav>
+      <div id="toggle"class="toggle mr-2">
+
+      </div>
       <div class="container-fuild">
         <div class="row"> 
             <div class="col-md-1">
@@ -54,34 +61,24 @@
 
             </div>
             <div class="col-md-4">
-                <h1 div class = "title">Hi! I'm Roy.</h1>
-                <h3 div class = "sub-title">I'm a recent graduate looking for a career in Computer Science.</h3>
-                <h3 div class = "sub-title">Please look around to learn more about me and my projects.</h3>
+                <h1 div class = "title dark-mode-word">Hi! I'm Roy.</h1>
+                <h3 div class = "sub-title dark-mode-word">I'm a recent graduate looking for a career in Computer Science.</h3>
+                <h3 div class = "sub-title dark-mode-word">Please look around to learn more about me and my projects.</h3>
             </div>
 
             <div class="col-md-1">
                 
             </div>
         </div>
-      </div>  <h1 class="about-title" id="About"> About Me</h1>
+      </div>  <h1 class="about-title dark-mode-word" id="About"> About Me</h1> 
       <div class="container-fluid about">
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-6">
           
-            <p class = "test">
+            <p class = "test dark-mode-word">
               Thank you for taking the time to learn more about me! My journey in computer science began in high school with a single course, knowing only that "it involves coding." Fast forward six years, and I’ve graduated from Western University with a Bachelor of Science in Computer Science. Throughout my studies, I gained a deep understanding of core concepts like data structures, software architecture, databases, and object-oriented design.
-            </p>  
-            <!-- 
-            <p>
-              During my time at Western, I was fortunate to complete a sixteen-month internship at J.D. Power as a QA Analyst. I worked across two teams: the sustain team, where I primarily resolved support tickets and ensured system stability, and the build team, where I tested a program called "Admin SNI." My role required developing creative test cases to ensure comprehensive functionality and working extensively with SQL to compare car model data in the database. These experiences not only enhanced my technical skills but also taught me the importance of teamwork and problem-solving in real-world scenarios.
-              
-            </p>
-            <p>
-              Outside of work, I enjoy staying active through working out at the gym, spending time with family and friends, and working on personal projects. I also enjoy watching TV shows and movies (particularly super hero stuff with an occasional gossip girl sprinkled in), and console gaming, though I’ve had to dial back on sports due to a torn ACL—maybe a story for another time!)
-            </p>  
-            <p>Feel free to explore my projects below, and don’t hesitate to reach out if you’d like to connect!</p>  
-          -->      
+            </p>     
           </div>
           <div class="col-md-3">
             <img src="public/images/images.jpg" class="about-picture-1">
@@ -95,16 +92,10 @@
           <div class="col-md-1"></div>
           <div class="col-md-3">
             <img src="public/images/JD-Power.jpg" class="about-picture-2">
-            <!-- 
-
-            <p>
-              Outside of work, I enjoy staying active through working out at the gym, spending time with family and friends, and working on personal projects. I also enjoy watching TV shows and movies (particularly super hero stuff with an occasional gossip girl sprinkled in), and console gaming, though I’ve had to dial back on sports due to a torn ACL—maybe a story for another time!)
-            </p>  
-            <p>Feel free to explore my projects below, and don’t hesitate to reach out if you’d like to connect!</p>  
-          -->      
+    
           </div>
           <div class="col-md-6">
-                        <p>
+                        <p class="dark-mode-word">
               During my time at Western, I was fortunate to complete a sixteen-month internship at J.D. Power as a QA Analyst. I worked across two teams: the sustain team, where I primarily resolved support tickets and ensured system stability, and the build team, where I tested a program called "Admin SNI." My role required developing creative test cases to ensure comprehensive functionality and working extensively with SQL to compare car model data in the database. These experiences not only enhanced my technical skills but also taught me the importance of teamwork and problem-solving in real-world scenarios.
               
             </p>
@@ -116,10 +107,10 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <p>
+            <p class="dark-mode-word">
               Outside of work, I enjoy staying active through working out at the gym, spending time with family and friends, and working on personal projects. I also enjoy watching TV shows and movies (particularly super hero stuff with an occasional gossip girl sprinkled in), and console gaming, though I’ve had to dial back on sports due to a torn ACL—maybe a story for another time!)
             </p>  
-            <p>Feel free to explore my projects below, and don’t hesitate to reach out if you’d like to connect!</p>  
+            <p class="dark-mode-word">Feel free to explore my projects below, and don’t hesitate to reach out if you’d like to connect!</p>  
                
           </div>
           <div class="col-md-3">
@@ -127,15 +118,15 @@
           </div>
         </div> 
       </div>
-      <h1 class="PiP-title" id="PiP"> Projects in Progress</h1>
+      <h1 class="PiP-title dark-mode-word" id="PiP"> Projects in Progress</h1>
       <div class="container-fluid projecti">
-        <h3 class="tictactoe-title"> AI Tic Tac Toe</h3>
+        <h3 class="tictactoe-title dark-mode-word"> AI Tic Tac Toe</h3>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-3">
             <img src="public/images/tictactoe.jpg" class="tictactoe">         
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 dark-mode-word">
             <p>
               I am currently developing an AI-powered Tic Tac Toe game in Python, with a focus on deepening my understanding of the Minimax algorithm. I've additionally added the ability to play a fully randomized version of tic tac toe where the CPU player mindlessly selections an option, however my primary goal is to explore how the Minimax function operates to determine the most optimal move in games like Tic Tac Toe. The Minimax algorithm, a classic decision-making approach used in game theory, evaluates possible game outcomes by simulating all potential moves and counter-moves, assuming that both players will play optimally. Through this project, I am gaining practical experience in implementing the Minimax algorithm, handling game states, and refining my understanding of recursion, as the function recursively assesses the value of each move, ultimately choosing the one that leads to the best possible outcome for the AI. My current progress can be found <a href = "https://github.com/royzhu0830/TicTacToe-AI" target = "_blank">here!</a>
             </p>
@@ -143,8 +134,8 @@
         </div>
 
       </div>
-      <h1 id = "FP" class="FP-Title">Finished Projects</h1>
-      <div class="container-fluid projectf">
+      <h1 id = "FP" class="FP-Title dark-mode-word">Finished Projects</h1>
+      <div class="container-fluid projectf dark-mode-word">
         <h3 class="chess-title">Simple Chess Game</h3> 
         <div class="row">
           <div class="col-md-1"></div>
@@ -159,7 +150,7 @@
 
       </div>
 
-      <div class="container-fluid projectf">
+      <div class="container-fluid projectf dark-mode-word">
         <h3 class="chess-title">Soccer Unlimited</h3> 
         <div class="row">
           <div class="col-md-1"></div>
@@ -198,7 +189,8 @@
         </div>
         
       </div>
-
+    <!-- JS -->
+     <script src = "index.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
